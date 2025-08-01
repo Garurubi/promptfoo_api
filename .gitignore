@@ -1,0 +1,42 @@
+# .gitignore for /app/promptfoo_api/
+# Ignore everything by default
+/*
+
+# But not these files/directories:
+!/.gitignore
+!app.js
+!docker-compose.yaml
+!evaluation/
+
+# Inside evaluation, ignore everything by default
+/evaluation/*
+
+# But not these files/directories inside evaluation:
+!evaluation/promptfoo.yaml
+!evaluation/prompts/
+!evaluation/tests/
+
+# Inside prompts, ignore everything by default
+/evaluation/prompts/*
+# But not these files inside prompts:
+!evaluation/prompts/chat_prompt.json
+!evaluation/prompts/dynamic_prompt.py
+
+# Inside tests, ignore everything by default
+/evaluation/tests/*
+# But not these files inside tests:
+!evaluation/tests/assert.py
+!evaluation/tests/test_tagging_result.json
+
+# Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# OS generated files
+.DS_Store
+Thumbs.db

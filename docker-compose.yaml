@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  promptfoo_api:
+    image: ghcr.io/promptfoo/promptfoo:0.117.1
+    user: root
+    container_name: promptfoo_api
+    entrypoint: ["/bin/sh"]
+    ports:
+      - "8222:3000"
+      - "8333:3001"
+    volumes:
+      - /var/lib/promptfoo:/home/promptfoo/.promptfoo
+      - /mnt/minio_goofys:/mnt/mlflow_volume
+      - /home/jjhee3156/promptfoo_api:/app/promptfoo_api
+    tty: true          # -it 중 -t 대응
+    stdin_open: true   # -it 중 -i 대응
