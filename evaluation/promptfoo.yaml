@@ -6,7 +6,7 @@ prompts:
 providers:
   - id: openai:gpt-4o-mini
     config:
-      apiKey: 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
+      apiKey: <api_key>
   - id: openai:completion:Qwen/Qwen2.5-7B-Instruct
     config:
       apiBaseUrl: http://192.168.2.104:8401/v1
