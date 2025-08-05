@@ -9,5 +9,5 @@ services:
       - "8223:3000"
       - "8334:3001"
     volumes:
-      - /var/lib/promptfoo:/home/promptfoo/.promptfoo
+      - /var/lib/promptfoo:/root/.promptfoo
       - /mnt/minio_goofys:/mnt/mlflow_volume

@@ -1,4 +1,10 @@
-import openai
+try:
+    import openai
+except ImportError:
+    import subprocesss
+    import sys
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "openai", "--break-system-packages"])
+    import openai
 
 evaluation_system_prompt = \
 """
