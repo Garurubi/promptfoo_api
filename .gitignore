@@ -1,42 +1,15 @@
-# .gitignore for /app/promptfoo_api/
-# Ignore everything by default
+# 기본적으로 모든 파일 무시
 /*
 
-# But not these files/directories:
-!/.gitignore
+# Git에 포함할 루트 파일
+!.gitignore
 !app.js
+!register_url.py
+!dockerfile
+
+# docker-compose 파일들
 !docker-compose.yaml
-!evaluation/
+!docker-compose_dev.yaml
 
-# Inside evaluation, ignore everything by default
-/evaluation/*
-
-# But not these files/directories inside evaluation:
-!evaluation/promptfoo.yaml
-!evaluation/prompts/
-!evaluation/tests/
-
-# Inside prompts, ignore everything by default
-/evaluation/prompts/*
-# But not these files inside prompts:
-!evaluation/prompts/chat_prompt.json
-!evaluation/prompts/dynamic_prompt.py
-
-# Inside tests, ignore everything by default
-/evaluation/tests/*
-# But not these files inside tests:
-!evaluation/tests/assert.py
-!evaluation/tests/test_tagging_result.json
-
-# Python cache and environment files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
-.venv
-venv/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# 평가 폴더만 포함
+!example/

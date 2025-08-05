@@ -1,0 +1,132 @@
+[
+    {
+        "vars": {
+            "abstract": "Wildfires are among the biggest problems faced worldwide. They are increasing in severity and frequency, causing economic losses, human death, and significant environmental damage. Environmental factors, such as wind and large forest areas, contribute to the fire spreading over multiple fire spots, all of which grow continuously, making fire suppression extremely difficult. Therefore, fire spots should be coverage simultaneously to contain the spread and prevent coalescence. Therefore, this study presents a new model based on the principles of nature-inspired metaheuristics that uses Swarm Intelligence (SI) to test the effectiveness of using an autonomous and decentralized behaviour for a swarm of Unmanned Aerial Vehicles (UAVs) or drones to detect all distributed fire spots and extinguishing them cooperatively. To achieve this goal, we used the improved random walk algorithm to explore the distributed fire spots and a self-coordination mechanism based on the stigmergy as an indirect communication between the swarm drones, taking into account the collision avoidance factor, the amount of extinguishing fluid, and the flight range of the drones. Numerical analysis and extensive simulations were performed to investigate the behaviour of the proposed methods and analyze their performance in terms of the area-coverage rate and total energy required by the drone swarm to complete the task. Our quantitative tests show that the improved model has the best coverage (95.3%, 84.3% and 65.8%, respectively) compared to two other methods Levy Flight (LF) algorithm and Particle Swarm Optimization (PSO), which use the same initial parameter values. The simulation results show that the proposed model performs better than its competitors and saves energy, especially in more complicated situations.",
+            "ground_truth": "[{'id': '1', 'label': 'social issue', 'text': 'wildfires'}, {'id': '2', 'label': 'solution', 'text': 'new model based on the principles of nature-inspired metaheuristics that uses Swarm Intelligence (SI) to test the effectiveness of using an autonomous and decentralized behaviour for a swarm of Unmanned Aerial Vehicles (UAVs) or drones to detect all distributed fire spots and extinguishing them cooperatively'}]",
+            "entity_cnt": 2
+        },
+        "assert": [
+            {
+                "type": "python",
+                "value": "file://./tests/assert.py:get_assert"
+            }
+        ]
+    },
+    {
+        "vars": {
+            "abstract": "Fire can be made useful for various purposes. However, uncontrollable fire may result in property damage and human death. The major factor of fire deaths is due to excessive smoke inhalation. Therefore, early detection of fire is crucial in fire detection systems. The conventional fire detection system does not come with a false alarm prevention system. Besides, the system is unable to tell the exact location of the fire. In this project, an Internet of Things (IoT) based fire safety system is developed to overcome these problems. The proposed system consists of three major parts which are the detector, processing unit and surveillance. The detector unit is an integration of ESP32, carbon monoxide sensor, ionization smoke detector, buzzer, temperature and humidity sensor. As the processing unit, Raspberry Pi is used to run the Node-RED application, which processes the data and performs monitoring. The communication between the detector and processing unit is based on the Message Queuing Telemetry Transport (MATT) protocol. A surveillance unit is where a camera is installed to monitor the condition of the surrounding. The response of the system is based upon the sensor's values or the user's response. Once the fire breakout is confirmed, the system will immediately sound the alarm, and Global Positioning System (GPS) coordinates and floor plan of the accommodation will send to the nearby fire station. The floor plan is developed to track the exact location of the fire. Experiments are carried out on the proposed fire safety system, and encouraging results are produced.",
+            "ground_truth": "[{'id': '1', 'label': 'social issue', 'text': 'uncontrollable fire'}, {'id': '2', 'label': 'solution', 'text': 'Internet of Things (IoT) based fire safety system'}, {'id': '3', 'label': 'affected group', 'text': 'human'}]",
+            "entity_cnt": 3
+        },
+        "assert": [
+            {
+                "type": "python",
+                "value": "file://./tests/assert.py:get_assert"
+            }
+        ]
+    },
+    {
+        "vars": {
+            "abstract": "Coal fires are a major problem throughout the world. They threaten the environment and the health of people living nearby and result in significant economic losses. Efficient and economical control of these fires requires that the extent of the subsurface coal fire be delineated. In this paper, we first present laboratory experiments, revealing that new preferential alignment of magnetic moments, newly formed magnetite and thermoremanent magnetization are the root causes of magnetic anomalies in coal fire area. The redox potential and Thomson potential, which are the basis of the self-potential anomalies, are proposed additionally for application. Then, the geological setting and an overview of the Fifth Fire Area (FFA) of the Heshituoluogai coal fire in Xinjiang are introduced in detail. Finally, the magnetic and self-potential methods are combined to delineate the extent of the fire. Several data processing methods such as diurnal fluctuation rectification, reduction to pole and upward continuation are used to process the data to make the interpretation of results more straight forward. The locations of subsurface fire regions delineated by the magnetic and self-potential methods are consistent with the results of ground surveys, indicating that these two methods can be used effectively as a tool for the detection of coal fires. (C) 2014 Elsevier B.V. All rights reserved.",
+            "ground_truth": "[{'id': '1', 'label': 'social issue', 'text': 'coal fires'}, {'id': '2', 'label': 'solution', 'text': 'redox potential and Thomson potential'}, {'id': '3', 'label': 'affected group', 'text': 'people'}, {'id': '4', 'label': 'affected region', 'text': 'Xinjiang'}]",
+            "entity_cnt": 4
+        },
+        "assert": [
+            {
+                "type": "python",
+                "value": "file://./tests/assert.py:get_assert"
+            }
+        ]
+    },
+    {
+        "vars": {
+            "abstract": "Fire disasters are man-made disasters, which cause ecological, social, and economic damage. To minimize these losses, early detection of fire and an autonomous response are important and helpful to disaster management systems. Therefore, in this article, we propose an early fire detection framework using fine-tuned convolutional neural networks for CCTV surveillance cameras, which can detect fire in varying indoor and outdoor environments. To ensure the autonomous response, we propose an adaptive prioritization mechanism for cameras in the surveillance system. Finally, we propose a dynamic channel selection algorithm for cameras based on cognitive radio networks, ensuring reliable data dissemination. Experimental results verify the higher accuracy of our fire detection scheme compared to state-of-the-art methods and validate the applicability of our framework for effective fire disaster management. (C) 2017 Elsevier B.V. All rights reserved.",
+            "ground_truth": "[{'id': '1', 'label': 'social issue', 'text': 'fire disasters'}, {'id': '2', 'label': 'solution', 'text': 'early fire detection framework using fine-tuned convolutional neural networks for CCTV surveillance cameras, which can detect fire in varying indoor and outdoor environments'}]",
+            "entity_cnt": 2
+        },
+        "assert": [
+            {
+                "type": "python",
+                "value": "file://./tests/assert.py:get_assert"
+            }
+        ]
+    },
+    {
+        "vars": {
+            "abstract": "In the past few years, fire incidents in electronic systems have become frequent and caused many losses of life and property. Consequently, various studies have been conducted in order to establish effective ways to avoid fire caused by electrical devices. In light of the fact that electrical sensors frequently get damaged, it is crucial to develop a smart switch that can detect and control power outages during an unexpected heat increase or fire incident. Therefore, a new technique has been developed based on the shape memory alloys (SMA) that work as a smart actuator that can control the connection of electrical current by generating an important mechanical deformation under temperature variation. The proposed smart actuator can separate the two connectors of electrical current between an electrical power source and the device by generating significant deformation, which can stop the damage and overheating, thus avoiding any incident related to the temperature increase. Hence, a numerical study has been conducted that aims to integrate the SMA in electrical devices in order to protect them from fire accidents. Therefore, mathematical modelling have been conducted to adjust the smart actuator with any electrical device, with rules that will be developed to increase the actual detection rate. The simulation results of the proposed fire detection system have been compared with several current methods. The results show that the proposed engineering is very promising and can respond to a temperature change in 0.2 s and generate a total deformation of about 8%. The results show that the suggested method has a higher fire detection rate that can reach 90% for detection.",
+            "ground_truth": "[{'id': '1', 'label': 'social issue', 'text': 'fire incidents in electronic systems'}, {'id': '2', 'label': 'solution', 'text': 'smart switch that can detect and control power outages during an unexpected heat increase or fire incident'}]",
+            "entity_cnt": 2
+        },
+        "assert": [
+            {
+                "type": "python",
+                "value": "file://./tests/assert.py:get_assert"
+            }
+        ]
+    },
+    {
+        "vars": {
+            "abstract": "Forest fire is disastrous to civilizations due to damage to life and property. Forest fire results imbalance of the ecosystem loss of human life and wild animals. Early detection of fire is one of the ways to mitigate this problem. This article proposes a Multimodal framework to identify the fire-prone area of the forest. In this approach, the forest area is divided into different zones. In each zone, two types of sensors are deployed. One type of sensor senses the temperature, relative humidity, drought condition of that zone. Another one is the camera sensors that capture images of that zone simultaneously. All the sensors send the sensed data and image data to the base station. Base station predicts the status (High Active/ Medium Active/Low Active) of the forest zone applying the proposed Multimodal forest fire detection framework. This framework is the integration of the Neuro-fuzzy classification based Sensor model and CNN based Image model. From performance analysis, it is observed that the fire detection accuracy of this proposed Multimodal model is high compared to the individual Sensor and Image model. This model assists the base station in taking necessary action to mitigate fire at that zone in the forest.",
+            "ground_truth": "[{'id': '1', 'label': 'social issue', 'text': 'forest fire'}, {'id': '2', 'label': 'solution', 'text': 'Multimodal framework to identify the fire-prone area of the forest'}, {'id': '3', 'label': 'affected group', 'text': 'human'}]",
+            "entity_cnt": 3
+        },
+        "assert": [
+            {
+                "type": "python",
+                "value": "file://./tests/assert.py:get_assert"
+            }
+        ]
+    },
+    {
+        "vars": {
+            "abstract": "IoT is essential in today's surveillance environment for maintaining safety and providing the best fire detection performance. Cameras are being installed in a lot of places because fire can seriously damage both residential and commercial sectors. However, the installed video monitoring device may generate data or perspectives that are odd or skewed. In view of these shortcomings, a convolutional neural network-based approach is proposed. The data set for testing the model is provided by an integrated sensor system that was built using an ESP-32 CAM image sensor, a number of complementing sensors, and an Arduino Uno microcontroller. Using drop out techniques, the model also solves the issue of overfitting in the paper. The performance of our approach was compared to that of other transfer learning models, such as MobileNet, Resnet50 and VGG19 that uses well-known state-of-the-art architectures. The main goal of this paper is to build a model which gives high accuracy while consuming low computational power during inference. The proposed model accuracy relative to latency is better than the transfer learning models. Furthermore, the approach is to build a well-generalised model for unknown data, resulting in efficient generalisation and fewer false predictions.",
+            "ground_truth": "[{'id': '1', 'label': 'social issue', 'text': 'fire'}, {'id': '2', 'label': 'solution', 'text': 'convolutional neural network-based approach'}]",
+            "entity_cnt": 2
+        },
+        "assert": [
+            {
+                "type": "python",
+                "value": "file://./tests/assert.py:get_assert"
+            }
+        ]
+    },
+    {
+        "vars": {
+            "abstract": "Forests cover nearly a third of the Earth's land area, and they are a key factor for all life on Earth, but unfortunately, forest fires are the greatest danger to their presence. The wildfires jeopardize general wellbeing, security, and require high levels of government resources. They also lead to noteworthy debasement of nature, property loss, and high rates of human death and injury. This paper proposes an algorithm to use and route unmanned aerial vehicles (UAVs) to mitigate forest fire risks. The developed matheuristic algorithm hybridizes simulated annealing and local search metaheuristics with an integer linear programming model. The mathematical model was developed to solve the distance-constrained multi-based multi-UAV routing problem, and because of the complexity of the problem, the generated metaheuristics helps the model to find better solutions. The effectiveness of the proposed matheuristic is tested with a real-life case study for Turkey and is also compared with a genetic algorithm. The Turkish State Meteorological Service generates forest fire-risk maps countrywide every day to predict fire risks 3 days later by using meteorological data. These maps are used to generate the risky regions to be visited by the UAVs, and the existing airports are considered for the UAVs to take off and land. The algorithm is coded using MATLAB and ILOG. The metaheuristics are designed with problem-based operators, and their parameters are tuned by experiments. Computational results demonstrate the effectiveness of the algorithm and the hybridization procedures. Results demonstrate that the CPU times for the methods are acceptable. (C) 2021 Elsevier B.V. All rights reserved.",
+            "ground_truth": "[{'id': '1', 'label': 'social issue', 'text': 'forest fires'}, {'id': '2', 'label': 'solution', 'text': 'algorithm to use and route unmanned aerial vehicles (UAVs) to mitigate forest fire risks'}, {'id': '4', 'label': 'affected group', 'text': 'human'}, {'id': '4', 'label': 'social issue', 'text': ''}]",
+            "entity_cnt": 4
+        },
+        "assert": [
+            {
+                "type": "python",
+                "value": "file://./tests/assert.py:get_assert"
+            }
+        ]
+    },
+    {
+        "vars": {
+            "abstract": "Indoor conflagration causes a large number of casualties and property losses worldwide every year. Yet existing indoor fire detection systems either suffer from short sensing range (e.g., <= 0.5m using a thermometer), susceptible to interferences (e.g., smoke detector) or high computational and deployment overhead (e.g., cameras, Wi-Fi). This paper proposes HearFire, a cost-effective, easy-to-use and timely room-scale fire detection system via acoustic sensing. HearFire consists of a collocated commodity speaker and microphone pair, which remotely senses fire by emitting inaudible sound waves. Unlike existing works that use signal reflection effect to fulfill acoustic sensing tasks, HearFire leverages sound absorption and sound speed variations to sense the fire due to unique physical properties of flame. Through a deep analysis of sound transmission, HearFire effectively achieves room-scale sensing by correlating the relationship between the transmission signal length and sensing distance. The transmission frame is carefully selected to expand sensing range and balance a series of practical factors that impact the system's performance. We further design a simple yet effective approach to remove the environmental interference caused by signal reflection by conducting a deep investigation into channel differences between sound reflection and sound absorption. Specifically, sound reflection results in a much more stable pattern in terms of signal energy than sound absorption, which can be exploited to differentiate the channel measurements caused by fire from other interferences. Extensive experiments demonstrate that HireFire enables a maximum 7m sensing range and achieves timely fire detection in indoor environments with up to 99.2% accuracy under different experiment configurations.",
+            "ground_truth": "[{'id': '1', 'label': 'social issue', 'text': 'indoor conflagration'}, {'id': '2', 'label': 'solution', 'text': 'HearFire'}]",
+            "entity_cnt": 2
+        },
+        "assert": [
+            {
+                "type": "python",
+                "value": "file://./tests/assert.py:get_assert"
+            }
+        ]
+    },
+    {
+        "vars": {
+            "abstract": "The early detection of fire is of utmost importance since it is related to devastating threats regarding human lives and economic losses. Unfortunately, fire alarm sensory systems are known to be prone to failures and frequent false alarms, putting people and buildings at risk. In this sense, it is essential to guarantee smoke detectors' correct functioning. Traditionally, these systems have been subject to periodic maintenance plans, which do not consider the state of the fire alarm sensors and are, therefore, sometimes carried out not when necessary but according to a predefined conservative schedule. Intending to contribute to designing a predictive maintenance plan, we propose an online data-driven anomaly detection of smoke sensors that model the behaviour of these systems over time and detect abnormal patterns that can indicate a potential failure. Our approach was applied to data collected from independent fire alarm sensory systems installed with four customers, from which about three years of data are available. For one of the customers, the obtained results were promising, with a precision score of 1 with no false positives for 3 out of 4 possible faults. Analysis of the remaining customers' results highlighted possible reasons and potential improvements to address this problem better. These findings can provide valuable insights for future research in this area.",
+            "ground_truth": "[{'id': '1', 'label': 'social issue', 'text': 'fire'}, {'id': '2', 'label': 'solution', 'text': 'online data-driven anomaly detection of smoke sensors that model the behaviour of these systems over time and detect abnormal patterns that can indicate a potential failure'}, {'id': '3', 'label': 'affected group', 'text': 'people'}]",
+            "entity_cnt": 3
+        },
+        "assert": [
+            {
+                "type": "python",
+                "value": "file://./tests/assert.py:get_assert"
+            }
+        ]
+    }
+]

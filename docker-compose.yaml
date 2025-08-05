@@ -8,6 +8,9 @@ services:
     ports:
       - "8223:3000"
       - "8334:3001"
+    enviroment:
+      - MLFLOW_TRACKING_URI=http://192.168.2.136:15672/
+      - PROMPTFOO_HOST_URL=http://192.168.2.136:8222/
     volumes:
       - /var/lib/promptfoo:/root/.promptfoo
       - /mnt/minio_goofys:/mnt/mlflow_volume
